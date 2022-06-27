@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1>
+                <a href="#home">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#flex-one">flex-one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#flex-two">flex-two</a></li>
+                    <li><a href="#pricing">Preço</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Use o aplicativo "A" e ganhe tempo em sua vida</h2>
+                <p>Alguma info interessante feita pelo marketing que vai chamar atenção do cliente e que não será esse:
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatum unde facere aliquid
+                    quas pariatur facilis id libero veniam laboriosam fuga ratione, molestiae quos officia iure
+                    explicabo nobis expedita! Nihil?.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/cinema.svg"
+                    alt="homem sentado com ôculos 3D e comendo pipoca ao assistir a uma série">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Explicação da Tecnologia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolores minus aliquam dolor cupiditate
+                praesentium magnam eos at sed perferendis, fugiat eaque totam deserunt id beatae, corporis minima nulla
+                distinctio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolores minus aliquam dolor cupiditate
+                praesentium magnam eos at sed perferendis, fugiat eaque totam deserunt id beatae, corporis minima nulla
+                distinctio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolores minus aliquam dolor cupiditate
+                praesentium magnam eos at sed perferendis, fugiat eaque totam deserunt id beatae, corporis minima nulla
+                distinctio.</p>
+        </div>
+    </section>
+
+    <section id="flex-one" class="flex-one main-bg section">
+        <div class="main-content flex-one-content">
+            <h2 class="grid-main-heading">Vantagens do Produto</h2>
+            <p class="grid-description">Uma breve descrição bem aqui =)</p>
+            <div class="grid">
+                <article>
+                    <h3>Acesso em qualquer lugar</h3>
+                    <p>Quer esteja no trabalho ou em qualquer outro lugar, crie seu melhor trabalho em seu navegador da
+                        área de trabalho favorito.</p>
+                </article>
+                <article>
+                    <h3>Experiência familiar</h3>
+                    <p>A experiência familiar do Office em que você confia, então não há nada a aprender.</p>
+                </article>
+                <article>
+                    <h3>Trabalhe com qualquer pessoa</h3>
+                    <p>Compartilhe seus documentos com qualquer um e trabalhe em conjunto em tempo real.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="flex-one white-bg section">
+        <div class="main-content flex-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Fotos do produto na galeria =)</p>
+
+            <div class="grid">
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=11" alt="imagem aleatoria do site unsplash" />
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=344"
+                        alt="imagem aleatoria do site unsplash" />
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=13" alt="imagem aleatoria do site unsplash" />
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=34" alt="imagem aleatoria do site unsplash" />
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=15" alt="imagem aleatoria do site unsplash" />
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=46" alt="imagem aleatoria do site unsplash" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="flex-two" class="flex-one main-bg section">
+        <div class="main-content flex-one-content">
+            <h2 class="grid-main-heading">Desempenho</h2>
+            <p class="flex-description"> Impactos positivos no uso do produto e Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Explicabo sunt labore, cumque ex provident consequatur. Laudantium mollitia numquam
+                omnis nisi? Veniam earum itaque iusto natus similique iste officia id labore.</p>
+
+            <div class="flex-item">
+                <article>
+                    <h3>Info 1</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi qui labore architecto assumenda
+                        quod
+                        voluptatem omnis debitis dolores non quos dolor maiores doloribus placeat neque accusantium
+                        laboriosam
+                        suscipit, exercitationem dolorem.</p>
+                </article>
+                <article>
+                    <h3>Info 2</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, tempora ut? Neque eius iusto iure
+                        maxime
+                        odit consequatur illum numquam totam doloremque nostrum. Dolore minus, at et magnam mollitia
+                        dignissimos.</p>
+                </article>
+                <article>
+                    <h3>Info 3</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, tempora ut? Neque eius iusto iure
+                        maxime
+                        odit consequatur illum numquam totam doloremque nostrum. Dolore minus, at et magnam mollitia
+                        dignissimos.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Preço</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti sapiente reiciendis beatae magnam
+                consequatur aut odit illum dolore aliquid quas blanditiis mollitia non delectus iusto quod suscipit
+                numquam, fugiat nostrum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iste maiores? Mollitia, odit.
+                Placeat provident laudantium expedita, quos pariatur officiis eum repudiandae amet repellat hic
+                similique ratione perferendis rem magnam!</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Resultado</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Espaço para compra do produto e formulário de contato</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam corporis fugit deserunt nihil alias,
+                    doloremque fuga hic provident labore, nemo nulla maiores itaque et distinctio quos minus. Maxime,
+                    aspernatur necessitatibus.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/compra.svg" alt="duas pessoas apertando as mãos e negociando">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contato</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name " id="first-name" placeholder="Nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name " id="last-name" placeholder="Sobrenome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Seu email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Messagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua messagem"></textarea>
+
+                        <div class="form-group full-width">
+                            <button type="submit">Enviar mensagem</button>
+                        </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://github.com/IBliind">Feito por <span
+                    class="link-github">IBliind</span></a> 😀 </p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+
+</body>
+
+</html>
